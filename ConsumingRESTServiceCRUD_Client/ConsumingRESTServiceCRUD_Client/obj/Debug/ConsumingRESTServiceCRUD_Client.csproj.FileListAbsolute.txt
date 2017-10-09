@@ -1,0 +1,105 @@
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\ApplicationInsights.config
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\csc.exe
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\System.Collections.Immutable.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\System.Reflection.Metadata.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\vbc.exe
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\VBCSCompiler.exe
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\VBCSCompiler.exe.config
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\ConsumingRESTServiceCRUD_Client.dll.config
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\ConsumingRESTServiceCRUD_Client.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\ConsumingRESTServiceCRUD_Client.pdb
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Antlr3.Runtime.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.Agent.Intercept.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.DependencyCollector.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.Web.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.WindowsServer.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.ApplicationInsights.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.Web.Infrastructure.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Newtonsoft.Json.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Helpers.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Mvc.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Optimization.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Razor.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.Deployment.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.Razor.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\WebGrease.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.DependencyCollector.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.Web.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.WindowsServer.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.ApplicationInsights.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Helpers.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Mvc.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Optimization.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Razor.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.Deployment.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.Razor.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Antlr3.Runtime.pdb
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Newtonsoft.Json.xml
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\obj\Debug\ConsumingRESTServiceCRUD_Client.csprojResolveAssemblyReference.cache
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\obj\Debug\ConsumingRESTServiceCRUD_Client.dll
+D:\EAP_TungBT\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\obj\Debug\ConsumingRESTServiceCRUD_Client.pdb
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\obj\Debug\ConsumingRESTServiceCRUD_Client.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\obj\Debug\ConsumingRESTServiceCRUD_Client.pdb
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\ApplicationInsights.config
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\csc.exe
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\System.Collections.Immutable.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\System.Reflection.Metadata.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\vbc.exe
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\VBCSCompiler.exe
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\roslyn\VBCSCompiler.exe.config
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\ConsumingRESTServiceCRUD_Client.dll.config
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\ConsumingRESTServiceCRUD_Client.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\ConsumingRESTServiceCRUD_Client.pdb
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Antlr3.Runtime.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.DependencyCollector.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.Web.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.WindowsServer.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.ApplicationInsights.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.Web.Infrastructure.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Newtonsoft.Json.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Helpers.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Mvc.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Optimization.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Razor.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.Deployment.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.Razor.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\WebGrease.dll
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.DependencyCollector.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.Web.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.AI.WindowsServer.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.ApplicationInsights.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Helpers.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Mvc.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Optimization.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.Razor.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.Deployment.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\System.Web.WebPages.Razor.xml
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Antlr3.Runtime.pdb
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ConsumingRESTServiceCRUD_Client\ConsumingRESTServiceCRUD_Client\bin\Newtonsoft.Json.xml
