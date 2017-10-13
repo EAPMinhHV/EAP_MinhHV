@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Class="EmployeeDataDataContext" Serialization="Unidirectional" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=HOANGMINH;Initial Catalog=Employee;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="EmployeeConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="" Member="Employees">
+    <Type Name="Employee">
+      <Column Name="empID" Type="System.Int32" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="firstName" Type="System.String" CanBeNull="false" />
+      <Column Name="lastName" Type="System.String" CanBeNull="false" />
+      <Column Name="Age" Type="System.Int32" CanBeNull="false" />
+      <Column Name="" Member="address" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
