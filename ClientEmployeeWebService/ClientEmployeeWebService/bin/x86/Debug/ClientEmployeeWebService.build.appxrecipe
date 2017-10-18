@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6ab86021-1ba1-4031-98ce-82a5d23a6f8b</PackageIdentityName>
     <PackageIdentityPublisher>CN=Minh</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\ClientEmployeeWebService.exe">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\ClientEmployeeWebService.exe">
       <PackagePath>entrypoint\ClientEmployeeWebService.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Minh\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -334,47 +334,47 @@
     <AppxPackagedFile Include="C:\Users\Minh\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\ClientEmployeeWebService.xr.xml">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\ClientEmployeeWebService.xr.xml">
       <PackagePath>ClientEmployeeWebService.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\Core\ClientEmployeeWebService.exe">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\Core\ClientEmployeeWebService.exe">
       <PackagePath>ClientEmployeeWebService.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

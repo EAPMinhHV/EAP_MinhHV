@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PaymentDataASM">
+  <DataContextMoniker Name="/PaymentDataASMDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2e34b7a1-5bf6-43eb-a618-f2cfa21add40" absoluteBounds="1, 1.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/PaymentDataASMDataContext/Payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="96ece014-16f9-459e-8970-154d94ae0f0f" absoluteBounds="1.015, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="313e9130-9607-4b63-bf45-21f59f02d339" absoluteBounds="3.25, 3.625, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/PaymentDataASMDataContext/DoiTac" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c625816d-3625-4ba6-92bd-c54a4d1037c8" absoluteBounds="3.265, 4.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c4bc5835-ca17-4f5f-b241-b29339ebb86c" absoluteBounds="6.375, 4, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/PaymentDataASMDataContext/TaiKhoan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9e3c748-76f9-46d9-b6df-3274616796be" absoluteBounds="6.39, 4.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.375 : 4.50564697265625); (5.25 : 4.50564697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/PaymentDataASMDataContext/TaiKhoan/TaiKhoan_DoiTac" />
+      <nodes>
+        <classShapeMoniker Id="c4bc5835-ca17-4f5f-b241-b29339ebb86c" />
+        <classShapeMoniker Id="313e9130-9607-4b63-bf45-21f59f02d339" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="42da54b3-2ae6-4422-bc8a-de408adb96ec" absoluteBounds="3.25, 1.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/PaymentDataASMDataContext/DonHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32503cac-1bc4-4403-b955-496976e50639" absoluteBounds="3.265, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.25 : 3.625); (4.25 : 3.27089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaymentDataASMDataContext/DoiTac/DoiTac_DonHang" />
+      <nodes>
+        <classShapeMoniker Id="313e9130-9607-4b63-bf45-21f59f02d339" />
+        <classShapeMoniker Id="42da54b3-2ae6-4422-bc8a-de408adb96ec" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.25 : 2.26044840494792); (3 : 2.26044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaymentDataASMDataContext/DonHang/DonHang_Payment" />
+      <nodes>
+        <classShapeMoniker Id="42da54b3-2ae6-4422-bc8a-de408adb96ec" />
+        <classShapeMoniker Id="2e34b7a1-5bf6-43eb-a618-f2cfa21add40" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="18f20b35-1645-43ab-8f49-8ad8972cbb9e" absoluteBounds="5.625, 1.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/PaymentDataASMDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="150715e2-c73d-4c76-ae08-6ec1d984dbd1" absoluteBounds="5.64, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.625 : 2.19314697265625); (5.25 : 2.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaymentDataASMDataContext/KhachHang/KhachHang_DonHang" />
+      <nodes>
+        <classShapeMoniker Id="18f20b35-1645-43ab-8f49-8ad8972cbb9e" />
+        <classShapeMoniker Id="42da54b3-2ae6-4422-bc8a-de408adb96ec" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

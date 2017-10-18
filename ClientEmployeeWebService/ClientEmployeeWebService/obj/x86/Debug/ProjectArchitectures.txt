@@ -1,1 +1,1 @@
-D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\ClientEmployeeWebService.csproj;x86
+D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\ClientEmployeeWebService.csproj;x86

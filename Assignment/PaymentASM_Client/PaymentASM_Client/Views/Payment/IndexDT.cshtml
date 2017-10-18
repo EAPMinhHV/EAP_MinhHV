@@ -1,0 +1,70 @@
+﻿@model IEnumerable<PaymentASM_Client.Models.LichSuGD>
+@{
+    ViewBag.Title = "Search";
+}
+@using PaymentASM_Client.Models;
+<h2>Search đối tác</h2>
+
+@using (Html.BeginForm("IndexDT", "Payment", FormMethod.Get))
+{
+    <h5>
+        Mã đối tác:@Html.TextBox("MaDT")
+        Mật khẩu đối tác:@Html.Password("MKDT")
+        From:@Html.TextBox("fromDate", string.Format("{0:d}", DateTime.Now), new { @class = "datefield", type = "date" })
+        To:@Html.TextBox("toDate", string.Format("{0:d}", DateTime.Now), new { @class = "datefield", type = "date" })
+        <input type="submit" value="Search" />
+    </h5>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.donhang.MaDH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pay.TenGD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.khachhang.MaKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.doitac.MaDT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.donhang.SoTien)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pay.Phi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pay.Ngay)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (LichSuGD item in ViewBag.products) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.donhang.MaDH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pay.TenGD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.khachhang.MaKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.doitac.MaDT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.donhang.SoTien)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pay.Phi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pay.Ngay)
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<PaymentASM_Client.Models.TaiKhoan>
+
+@{
+    ViewBag.Title = "Thông tin tài khoản";
+}
+
+<h2>Thông tin tài khoản</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaTK)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SoTien)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaTK)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoTien)
+        </td>
+    </tr>
+}
+
+</table>

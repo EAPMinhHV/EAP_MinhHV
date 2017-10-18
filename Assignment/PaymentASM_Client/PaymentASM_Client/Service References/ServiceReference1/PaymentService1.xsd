@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PaymentServiceASM" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PaymentServiceASM" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="DonHang">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MaDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaKH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaDT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SoTien" type="xs:decimal" />
+      <xs:element minOccurs="0" name="statusDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Payments" nillable="true" type="tns:ArrayOfPayment">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DonHang" nillable="true" type="tns:DonHang" />
+  <xs:complexType name="ArrayOfPayment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Payment" nillable="true" type="tns:Payment" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPayment" nillable="true" type="tns:ArrayOfPayment" />
+  <xs:complexType name="Payment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MaGD" type="xs:int" />
+      <xs:element minOccurs="0" name="Phi" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TenGD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaDH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ngay" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Payment" nillable="true" type="tns:Payment" />
+  <xs:complexType name="DoiTac">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MaDT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MKDT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaTK" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DonHangs" nillable="true" type="tns:ArrayOfDonHang">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DoiTac" nillable="true" type="tns:DoiTac" />
+  <xs:complexType name="ArrayOfDonHang">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DonHang" nillable="true" type="tns:DonHang" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDonHang" nillable="true" type="tns:ArrayOfDonHang" />
+  <xs:complexType name="ArrayOfDoiTac">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DoiTac" nillable="true" type="tns:DoiTac" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDoiTac" nillable="true" type="tns:ArrayOfDoiTac" />
+  <xs:complexType name="TaiKhoan">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MaTK" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SoTien" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DoiTacs" nillable="true" type="tns:ArrayOfDoiTac">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaiKhoan" nillable="true" type="tns:TaiKhoan" />
+  <xs:complexType name="ArrayOfTaiKhoan">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TaiKhoan" nillable="true" type="tns:TaiKhoan" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTaiKhoan" nillable="true" type="tns:ArrayOfTaiKhoan" />
+  <xs:complexType name="KhachHang">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MaKH" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaPin" type="xs:int" />
+      <xs:element minOccurs="0" name="SoTienTK" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DonHangs" nillable="true" type="tns:ArrayOfDonHang">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="KhachHang" nillable="true" type="tns:KhachHang" />
+  <xs:complexType name="ArrayOfKhachHang">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="KhachHang" nillable="true" type="tns:KhachHang" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKhachHang" nillable="true" type="tns:ArrayOfKhachHang" />
+</xs:schema>

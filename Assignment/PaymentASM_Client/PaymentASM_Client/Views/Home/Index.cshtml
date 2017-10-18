@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Payment</h1>
+    <p class="lead">Bạn có thể xem thông tin giao dịch vào thanh toán giao dịch tại đây.</p>
+   <p>@Html.ActionLink("Xem thông tin giao dịch Đối tác", "IndexDT", "Payment")</p>
+    <p>@Html.ActionLink("Xem thông tin giao dịch Khách Hàng", "IndexKH", "Payment")</p>
+    <p>@Html.ActionLink("Thanh toán", "createPay", "Payment")</p>
+</div>

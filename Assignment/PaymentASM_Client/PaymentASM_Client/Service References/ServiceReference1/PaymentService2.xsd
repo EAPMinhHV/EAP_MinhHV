@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:65003/PaymentService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PaymentServiceASM" />
+  <xs:element name="dangkyDonHang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="dh" nillable="true" type="q1:DonHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dangkyDonHangResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="thanhtoanKH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="pm" nillable="true" type="q2:Payment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="thanhtoanKHResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllPay">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllPayResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="getAllPayResult" nillable="true" type="q3:ArrayOfPayment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dangkyDoitac">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="dt" nillable="true" type="q4:DoiTac" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dangkyDoitacResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllDoiTac">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllDoiTacResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="getAllDoiTacResult" nillable="true" type="q5:ArrayOfDoiTac" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dangkytaikhoan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="tk" nillable="true" type="q6:TaiKhoan" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dangkytaikhoanResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllTK">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllTKResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="getAllTKResult" nillable="true" type="q7:ArrayOfTaiKhoan" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dangkyKH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="kh" nillable="true" type="q8:KhachHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dangkyKHResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllKH">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllKHResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="getAllKHResult" nillable="true" type="q9:ArrayOfKhachHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="checkDT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="madt" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mkdt" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="checkDTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="checkDTResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="checkKH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="makh" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mapin" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="checkKHResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="checkKHResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllDH">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllDHResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PaymentServiceASM" minOccurs="0" name="getAllDHResult" nillable="true" type="q10:ArrayOfDonHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

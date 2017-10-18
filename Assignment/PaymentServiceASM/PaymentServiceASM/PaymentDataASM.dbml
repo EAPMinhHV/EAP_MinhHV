@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Class="PaymentDataASMDataContext" Serialization="Unidirectional" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=HOANGMINH;Initial Catalog=Payment;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="PaymentConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="" Member="Payments">
+    <Type Name="Payment">
+      <Column Name="MaGD" AutoSync="Never" Type="System.Int32" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Phi" Type="System.Decimal" CanBeNull="false" />
+      <Column Name="TenGD" Type="System.String" CanBeNull="false" />
+      <Column Name="MaDH" Type="System.String" CanBeNull="false" />
+      <Column Name="Ngay" Type="System.DateTime" CanBeNull="false" />
+      <Association Name="DonHang_Payment" Member="DonHang" ThisKey="MaDH" OtherKey="MaDH" Type="DonHang" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="" Member="DoiTacs">
+    <Type Name="DoiTac">
+      <Column Name="MaDT" Type="System.String" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MKDT" Type="System.String" CanBeNull="false" />
+      <Column Name="MaTK" Type="System.String" CanBeNull="false" />
+      <Association Name="DoiTac_DonHang" Member="DonHangs" ThisKey="MaDT" OtherKey="MaDT" Type="DonHang" />
+      <Association Name="TaiKhoan_DoiTac" Member="TaiKhoan" ThisKey="MaTK" OtherKey="MaTK" Type="TaiKhoan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="" Member="TaiKhoans">
+    <Type Name="TaiKhoan">
+      <Column Name="MaTK" Type="System.String" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoTien" Type="System.Decimal" CanBeNull="false" />
+      <Association Name="TaiKhoan_DoiTac" Member="DoiTacs" ThisKey="MaTK" OtherKey="MaTK" Type="DoiTac" />
+    </Type>
+  </Table>
+  <Table Name="" Member="DonHangs">
+    <Type Name="DonHang">
+      <Column Name="MaDH" Type="System.String" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaKH" Type="System.String" CanBeNull="false" />
+      <Column Name="MaDT" Type="System.String" CanBeNull="false" />
+      <Column Name="SoTien" Type="System.Decimal" CanBeNull="false" />
+      <Column Member="statusDH" Type="System.String" CanBeNull="false" />
+      <Association Name="DonHang_Payment" Member="Payments" ThisKey="MaDH" OtherKey="MaDH" Type="Payment" />
+      <Association Name="DoiTac_DonHang" Member="DoiTac" ThisKey="MaDT" OtherKey="MaDT" Type="DoiTac" IsForeignKey="true" />
+      <Association Name="KhachHang_DonHang" Member="KhachHang" ThisKey="MaKH" OtherKey="MaKH" Type="KhachHang" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="" Member="KhachHangs">
+    <Type Name="KhachHang">
+      <Column Name="MaKH" Type="System.String" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaPin" Type="System.Int32" CanBeNull="false" />
+      <Column Name="SoTienTK" Type="System.Decimal" CanBeNull="false" />
+      <Association Name="KhachHang_DonHang" Member="DonHangs" ThisKey="MaKH" OtherKey="MaKH" Type="DonHang" />
+    </Type>
+  </Table>
+</Database>

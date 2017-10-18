@@ -1,0 +1,38 @@
+﻿@model IEnumerable<PaymentASM_Client.Models.KhachHang>
+
+@{
+    ViewBag.Title = "Thông tin khách hàng";
+}
+
+<h2>Thông tin khách hàng</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaPin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SoTienTK)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaPin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoTienTK)
+        </td>
+    </tr>
+}
+
+</table>

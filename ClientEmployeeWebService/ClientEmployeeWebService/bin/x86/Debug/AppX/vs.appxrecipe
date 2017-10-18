@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6ab86021-1ba1-4031-98ce-82a5d23a6f8b</PackageIdentityName>
     <PackageIdentityPublisher>CN=Minh</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-13T02:37:24.138</Modified>
+      <Modified>2017-10-13T04:03:04.696</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\ClientEmployeeWebService.exe">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\ClientEmployeeWebService.exe">
       <PackagePath>entrypoint\ClientEmployeeWebService.exe</PackagePath>
-      <Modified>2017-10-13T02:37:12.732</Modified>
+      <Modified>2017-10-13T04:02:59.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Minh\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,45 +448,45 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T16:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-10-13T02:30:24.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T10:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T10:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T10:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T10:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T10:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T10:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T10:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\ClientEmployeeWebService.xr.xml">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\ClientEmployeeWebService.xr.xml">
       <PackagePath>ClientEmployeeWebService.xr.xml</PackagePath>
       <Modified>2017-10-13T02:37:11.889</Modified>
     </AppxPackagedFile>
@@ -494,14 +494,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-06-07T12:12:05.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-13T02:37:20.416</Modified>
+      <Modified>2017-10-13T04:03:03.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\Core\ClientEmployeeWebService.exe">
+    <AppxPackagedFile Include="D:\Hoc tap\Practice\SoucreTree\EAP_MinhHV\ClientEmployeeWebService\ClientEmployeeWebService\bin\x86\Debug\Core\ClientEmployeeWebService.exe">
       <PackagePath>ClientEmployeeWebService.exe</PackagePath>
-      <Modified>2017-10-13T02:37:24.122</Modified>
+      <Modified>2017-10-13T04:03:04.691</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PaymentService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:65003/PaymentService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:65003/PaymentService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:65003/PaymentService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PaymentServiceASM" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPaymentService_dangkyDonHang_InputMessage">
+    <wsdl:part name="parameters" element="tns:dangkyDonHang" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_dangkyDonHang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dangkyDonHangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_thanhtoanKH_InputMessage">
+    <wsdl:part name="parameters" element="tns:thanhtoanKH" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_thanhtoanKH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:thanhtoanKHResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllPay_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllPay" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllPay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllPayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_dangkyDoitac_InputMessage">
+    <wsdl:part name="parameters" element="tns:dangkyDoitac" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_dangkyDoitac_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dangkyDoitacResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllDoiTac_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllDoiTac" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllDoiTac_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllDoiTacResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_dangkytaikhoan_InputMessage">
+    <wsdl:part name="parameters" element="tns:dangkytaikhoan" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_dangkytaikhoan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dangkytaikhoanResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllTK_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllTK" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllTK_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllTKResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_dangkyKH_InputMessage">
+    <wsdl:part name="parameters" element="tns:dangkyKH" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_dangkyKH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dangkyKHResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllKH_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllKH" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllKH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllKHResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_checkDT_InputMessage">
+    <wsdl:part name="parameters" element="tns:checkDT" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_checkDT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:checkDTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_checkKH_InputMessage">
+    <wsdl:part name="parameters" element="tns:checkKH" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_checkKH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:checkKHResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllDH_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllDH" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_getAllDH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllDHResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPaymentService">
+    <wsdl:operation name="dangkyDonHang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/dangkyDonHang" message="tns:IPaymentService_dangkyDonHang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/dangkyDonHangResponse" message="tns:IPaymentService_dangkyDonHang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="thanhtoanKH">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/thanhtoanKH" message="tns:IPaymentService_thanhtoanKH_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/thanhtoanKHResponse" message="tns:IPaymentService_thanhtoanKH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllPay">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/getAllPay" message="tns:IPaymentService_getAllPay_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/getAllPayResponse" message="tns:IPaymentService_getAllPay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dangkyDoitac">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/dangkyDoitac" message="tns:IPaymentService_dangkyDoitac_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/dangkyDoitacResponse" message="tns:IPaymentService_dangkyDoitac_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllDoiTac">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/getAllDoiTac" message="tns:IPaymentService_getAllDoiTac_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/getAllDoiTacResponse" message="tns:IPaymentService_getAllDoiTac_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dangkytaikhoan">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/dangkytaikhoan" message="tns:IPaymentService_dangkytaikhoan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/dangkytaikhoanResponse" message="tns:IPaymentService_dangkytaikhoan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllTK">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/getAllTK" message="tns:IPaymentService_getAllTK_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/getAllTKResponse" message="tns:IPaymentService_getAllTK_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dangkyKH">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/dangkyKH" message="tns:IPaymentService_dangkyKH_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/dangkyKHResponse" message="tns:IPaymentService_dangkyKH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllKH">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/getAllKH" message="tns:IPaymentService_getAllKH_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/getAllKHResponse" message="tns:IPaymentService_getAllKH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="checkDT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/checkDT" message="tns:IPaymentService_checkDT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/checkDTResponse" message="tns:IPaymentService_checkDT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="checkKH">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/checkKH" message="tns:IPaymentService_checkKH_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/checkKHResponse" message="tns:IPaymentService_checkKH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllDH">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/getAllDH" message="tns:IPaymentService_getAllDH_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/getAllDHResponse" message="tns:IPaymentService_getAllDH_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPaymentService" type="tns:IPaymentService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="dangkyDonHang">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/dangkyDonHang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="thanhtoanKH">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/thanhtoanKH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllPay">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/getAllPay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dangkyDoitac">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/dangkyDoitac" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllDoiTac">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/getAllDoiTac" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dangkytaikhoan">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/dangkytaikhoan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllTK">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/getAllTK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dangkyKH">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/dangkyKH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllKH">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/getAllKH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkDT">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/checkDT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkKH">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/checkKH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllDH">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/getAllDH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PaymentService">
+    <wsdl:port name="BasicHttpBinding_IPaymentService" binding="tns:BasicHttpBinding_IPaymentService">
+      <soap:address location="http://localhost:65003/PaymentService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

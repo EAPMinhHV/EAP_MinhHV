@@ -1,0 +1,55 @@
+﻿@model IEnumerable<PaymentASM_Client.Models.Payment>
+
+@{
+    ViewBag.Title = "Thông tin giao dịch";
+}
+@using PaymentASM_Client.Models;
+
+<h2>Thông tin giao dịch</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenGD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaDH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaDT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ngay)
+        </th>
+        <th></th>
+    </tr>
+
+@{var item = Session["payment"] as Payment;
+    <tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.TenGD)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.MaDH)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.MaKH)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.MaDT)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Phi)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Ngay)
+    </td>
+        </tr>
+    }
+</table>
