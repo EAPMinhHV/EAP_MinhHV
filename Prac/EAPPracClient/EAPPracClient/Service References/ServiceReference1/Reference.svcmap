@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f1c3ead4-6474-449d-baf5-47443bd6ac98" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:57349/PracticeServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PracticeServices.xsd" MetadataType="Schema" ID="72383984-83a1-4a22-b370-06d16aac6dd4" SourceId="1" SourceUrl="http://localhost:57349/PracticeServices.svc?xsd=xsd1" />
+    <MetadataFile FileName="PracticeServices1.xsd" MetadataType="Schema" ID="8016eac5-da09-4cb1-bb09-239fcbf0a8b3" SourceId="1" SourceUrl="http://localhost:57349/PracticeServices.svc?xsd=xsd0" />
+    <MetadataFile FileName="PracticeServices2.xsd" MetadataType="Schema" ID="acee1194-1fa0-4772-bd96-4b8df6321722" SourceId="1" SourceUrl="http://localhost:57349/PracticeServices.svc?xsd=xsd2" />
+    <MetadataFile FileName="PracticeServices.wsdl" MetadataType="Wsdl" ID="4081760a-808a-487d-b8bc-5cb70f884369" SourceId="1" SourceUrl="http://localhost:57349/PracticeServices.svc?wsdl" />
+    <MetadataFile FileName="PracticeServices.disco" MetadataType="Disco" ID="ba5688a7-2363-4707-a4b9-4e239e43274d" SourceId="1" SourceUrl="http://localhost:57349/PracticeServices.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

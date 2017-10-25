@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="EAPPrac" Class="EAPPracDataDataContext" Serialization="Unidirectional" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=HOANGMINH;Initial Catalog=EAPPrac;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="EAPPracConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="StudentID" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(90)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
